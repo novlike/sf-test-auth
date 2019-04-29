@@ -1,0 +1,8 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+login:
+    path: /login
+    controller: FrameworkBundle:Template:template
+    defaults: { template: login.html.twig }
